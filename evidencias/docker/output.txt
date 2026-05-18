@@ -1,0 +1,60 @@
+──────────────────────────────────────────────────────────────
+COMANDO: docker ps -a --filter "name=samplerunning"
+──────────────────────────────────────────────────────────────
+CONTAINER ID   IMAGE                COMMAND           CREATED         STATUS                     PORTS     NAMES
+a3f8c1d2e4b5   rawg-market-trends   "python app.py"   3 seconds ago   Exited (0) 2 seconds ago             samplerunning
+
+──────────────────────────────────────────────────────────────
+COMANDO: docker logs samplerunning
+──────────────────────────────────────────────────────────────
+[INFO] Iniciando consulta a la API de RAWG...
+
+============================================================
+  🎮  RAWG MARKET TRENDS — Game Developer Dashboard
+  📅  Análisis: 2024 – 2025
+============================================================
+  Top 5 juegos mejor valorados del período
+
+  [1] Elden Ring: Shadow of the Erdtree
+       Rating usuarios : 4.71 / 5.0
+       Metacritic       : 94
+       Lanzamiento      : 2024-06-21
+       Géneros          : Action, RPG
+       Plataformas      : PC, PlayStation 5, Xbox Series S/X
+
+  [2] Astro Bot
+       Rating usuarios : 4.68 / 5.0
+       Metacritic       : 94
+       Lanzamiento      : 2024-09-06
+       Géneros          : Platformer, Puzzle
+       Plataformas      : PlayStation 5
+
+  [3] Balatro
+       Rating usuarios : 4.65 / 5.0
+       Metacritic       : 90
+       Lanzamiento      : 2024-02-20
+       Géneros          : Strategy, Card Game, Indie
+       Plataformas      : PC, PlayStation 4, Xbox One
+
+  [4] Metaphor: ReFantazio
+       Rating usuarios : 4.62 / 5.0
+       Metacritic       : 93
+       Lanzamiento      : 2024-10-11
+       Géneros          : RPG
+       Plataformas      : PC, PlayStation 5, Xbox Series S/X
+
+  [5] Black Myth: Wukong
+       Rating usuarios : 4.58 / 5.0
+       Metacritic       : 82
+       Lanzamiento      : 2024-08-20
+       Géneros          : Action, RPG
+       Plataformas      : PC, PlayStation 5
+
+============================================================
+  ✅  Consulta completada exitosamente.
+============================================================
+
+──────────────────────────────────────────────────────────────
+NOTA: Este archivo debe reemplazarse con la salida real obtenida
+      al ejecutar el contenedor con tu RAWG_API_KEY válida.
+──────────────────────────────────────────────────────────────
