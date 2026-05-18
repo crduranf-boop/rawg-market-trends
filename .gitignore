@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Variables de entorno (NUNCA subir al repo)
+.env
+.env.*
+
+# Dockerfile generado por build.sh (se regenera en cada build)
+Dockerfile
+
+# Logs locales
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
