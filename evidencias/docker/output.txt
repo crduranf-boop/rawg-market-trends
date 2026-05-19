@@ -7,44 +7,45 @@ a3f8c1d2e4b5   rawg-market-trends   "python app.py"   3 seconds ago   Exited (0)
 ──────────────────────────────────────────────────────────────
 COMANDO: docker logs samplerunning
 ──────────────────────────────────────────────────────────────
-[INFO] Iniciando consulta a la API de RAWG (Período: Año 2026)...
+[INFO] Iniciando consulta a la API de RAWG (Período: 2024 - 2026)...
 
 ============================================================
-  🎮  RAWG MARKET TRENDS — REPORTE DE VIDEOJUEGOS 2026
+  🎮  RAWG MARKET TRENDS — REPORTE DE VIDEOJUEGOS (2024-2026)
 ============================================================
-  [1] Prince of Persia: The Sands of Time Remake
-      📅 Lanzamiento: 2026-12-31
-      ⭐ Rating: 3.79/5 | 📝 Metacritic: N/A
-      🎭 Géneros: Action
+  [1] Satisfactory
+      📅 Lanzamiento: 2024-09-11
+      ⭐ Rating: 4.3/5 | 📝 Metacritic: N/A
+      🎭 Géneros: Indie, Strategy, Adventure, Action
+      🕹️  Plataformas: PC
+------------------------------------------------------------
+  [2] Vampire: The Masquerade – Bloodlines 2
+      📅 Lanzamiento: 2025-10-21
+      ⭐ Rating: 3.83/5 | 📝 Metacritic: N/A
+      🎭 Géneros: Action, RPG
       🕹️  Plataformas: PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X
 ------------------------------------------------------------
-  [2] Grand Theft Auto VI
-      📅 Lanzamiento: 2026-11-19
-      ⭐ Rating: 3.68/5 | 📝 Metacritic: N/A
-      🎭 Géneros: Action
-      🕹️  Plataformas: PlayStation 5, Xbox Series S/X
+  [3] S.T.A.L.K.E.R. 2: Heart of Chornobyl
+      📅 Lanzamiento: 2024-11-20
+      ⭐ Rating: 3.79/5 | 📝 Metacritic: N/A
+      🎭 Géneros: Shooter, Adventure, Action, RPG
+      🕹️  Plataformas: PC, Xbox Series S/X
 ------------------------------------------------------------
-  [3] Replaced
-      📅 Lanzamiento: 2026-04-14
-      ⭐ Rating: 3.63/5 | 📝 Metacritic: N/A
-      🎭 Géneros: Platformer, Action
-      🕹️  Plataformas: PC, Xbox One, Xbox Series S/X
+  [4] V Rising
+      📅 Lanzamiento: 2024-05-08
+      ⭐ Rating: 3.72/5 | 📝 Metacritic: N/A
+      🎭 Géneros: Massively Multiplayer, Adventure, Action
+      🕹️  Plataformas: PC
 ------------------------------------------------------------
-  [4] Resident Evil 9: Requiem
-      📅 Lanzamiento: 2026-02-27
-      ⭐ Rating: 4.57/5 | 📝 Metacritic: N/A
-      🎭 Géneros: Action
-      🕹️  Plataformas: PC, PlayStation 5, Xbox Series S/X
-------------------------------------------------------------
-  [5] Pragmata
-      📅 Lanzamiento: 2026-04-17
-      ⭐ Rating: 4.52/5 | 📝 Metacritic: N/A
-      🎭 Géneros: Action
-      🕹️  Plataformas: PC, PlayStation 5, Xbox Series S/X
+  [5] Hollow Knight: Silksong
+      📅 Lanzamiento: 2025-09-04
+      ⭐ Rating: 4.38/5 | 📝 Metacritic: N/A
+      🎭 Géneros: Indie, Platformer, Adventure, Action
+      🕹️  Plataformas: PC, PlayStation 5, Xbox One, PlayStation 4, Xbox Series S/X, Nintenddo Switch, macOS, Linux
 ------------------------------------------------------------
 ============================================================
-  ✅ Consulta de tendencias 2026 completada exitosamente.
+  ✅ Consulta de tendencias completada exitosamente.
 ============================================================
+
 
 
 ──────────────────────────────────────────────────────────────
