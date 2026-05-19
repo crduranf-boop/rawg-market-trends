@@ -8,15 +8,15 @@ def main():
         print("[ERROR] No se detectó la variable de entorno RAWG_API_KEY.", file=sys.stderr)
         sys.exit(1)
 
-    print("[INFO] Iniciando consulta a la API de RAWG (Período: Año 2026)...")
+    print("[INFO] Iniciando consulta a la API de RAWG (Período: 2024 - 2026)...")
     
     URL = "https://api.rawg.io/api/games"
     
-    # Filtramos estrictamente para el año 2026 ordenando por popularidad
+    # Rango de fechas optimizado para asegurar datos de lanzamiento reales
     PARAMS = {
         "key": API_KEY,
         "page_size": 5,
-        "dates": "2026-01-01,2026-12-31",
+        "dates": "2024-01-01,2026-12-31",
         "ordering": "-added"
     }
 
@@ -27,11 +27,11 @@ def main():
         games = data.get("results", [])
 
         if not games:
-            print("[ADVERTENCIA] La API no devolvió juegos para el año 2026. Es posible que falten registros de este año en la base de datos de RAWG.")
+            print("[ADVERTENCIA] La API no devolvió juegos para el período consultado.")
             return
 
         print("\n" + "="*60)
-        print("  🎮  RAWG MARKET TRENDS — REPORTE DE VIDEOJUEGOS 2026")
+        print("  🎮  RAWG MARKET TRENDS — REPORTE DE VIDEOJUEGOS (2024-2026)")
         print("="*60)
         
         for i, game in enumerate(games, 1):
@@ -62,7 +62,7 @@ def main():
             print("-" * 60)
             
         print("="*60)
-        print("  ✅ Consulta de tendencias 2026 completada exitosamente.")
+        print("  ✅ Consulta de tendencias completada exitosamente.")
         print("="*60)
 
     except Exception as e:
